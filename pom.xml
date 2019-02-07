@@ -128,10 +128,10 @@
 				</configuration>
             </plugin>
 		<plugin>
-		    <groupId>com.google.appengine</groupId>
-		    <artifactId>appengine-maven-plugin</artifactId>
-		    <version>1.9.9</version>
-		</plugin>
+		<groupId>com.google.cloud.tools</groupId>
+		<artifactId>appengine-maven-plugin</artifactId>
+		<version>${appengine-maven-plugin-version}</version>
+	      </plugin>
         </plugins>
     </build>
 </project>
